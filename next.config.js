@@ -1,7 +1,3 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    // ensure ts path alias works
-  }
-};
+const nextConfig = {};
 module.exports = nextConfig;
