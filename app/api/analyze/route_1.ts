@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { EHR_QUESTIONS } from '../../../lib/jev-questions';
+import { EHR_QUESTIONS } from '@/lib/jev-questions';
 
 export async function POST(req: NextRequest) {
   const { diary } = await req.json();
